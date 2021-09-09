@@ -16,6 +16,8 @@
 		21EA579726E99B1100258CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA579626E99B1100258CDF /* main.m */; };
 		21EA57A126E99B1100258CDF /* GGJiePaiToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA57A026E99B1100258CDF /* GGJiePaiToolsTests.m */; };
 		21EA57AC26E99B1100258CDF /* GGJiePaiToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA57AB26E99B1100258CDF /* GGJiePaiToolsUITests.m */; };
+		21EA57BB26E99B5100258CDF /* GGSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA57B926E99B5100258CDF /* GGSlider.m */; };
+		21EA57BD26E99B7A00258CDF /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EA57BC26E99B7A00258CDF /* thumb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		21EA57A726E99B1100258CDF /* GGJiePaiToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGJiePaiToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EA57AB26E99B1100258CDF /* GGJiePaiToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGJiePaiToolsUITests.m; sourceTree = "<group>"; };
 		21EA57AD26E99B1100258CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EA57B926E99B5100258CDF /* GGSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSlider.m; sourceTree = "<group>"; };
+		21EA57BA26E99B5100258CDF /* GGSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSlider.h; sourceTree = "<group>"; };
+		21EA57BC26E99B7A00258CDF /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,9 @@
 		21EA578326E99B0F00258CDF /* GGJiePaiTools */ = {
 			isa = PBXGroup;
 			children = (
+				21EA57BC26E99B7A00258CDF /* thumb.png */,
+				21EA57BA26E99B5100258CDF /* GGSlider.h */,
+				21EA57B926E99B5100258CDF /* GGSlider.m */,
 				21EA578426E99B0F00258CDF /* AppDelegate.h */,
 				21EA578526E99B0F00258CDF /* AppDelegate.m */,
 				21EA578726E99B0F00258CDF /* SceneDelegate.h */,
@@ -239,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EA57BD26E99B7A00258CDF /* thumb.png in Resources */,
 				21EA579426E99B1100258CDF /* LaunchScreen.storyboard in Resources */,
 				21EA579126E99B1100258CDF /* Assets.xcassets in Resources */,
 				21EA578F26E99B0F00258CDF /* Main.storyboard in Resources */,
@@ -270,6 +279,7 @@
 				21EA578626E99B0F00258CDF /* AppDelegate.m in Sources */,
 				21EA579726E99B1100258CDF /* main.m in Sources */,
 				21EA578926E99B0F00258CDF /* SceneDelegate.m in Sources */,
+				21EA57BB26E99B5100258CDF /* GGSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GGJiePaiTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GGJiePaiTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
